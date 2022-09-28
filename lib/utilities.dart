@@ -1,3 +1,4 @@
+import 'package:devcamp_news_app/constants.dart';
 import 'package:intl/intl.dart';
 
 class Utilities {
@@ -19,5 +20,15 @@ class Utilities {
     return DateFormat("E, d MMM yy MM:mm:ss").format(
       DateTime.parse(storyDate),
     );
+  }
+
+  static String fetchCountryName(String code) {
+    var reversed = countries.map((key, value) => MapEntry(value, key));
+    return reversed[code]!;
+  }
+
+    static String fetchLanguageName(String code) {
+    var reversed = languages.map((key, value) => MapEntry(value, key));
+    return reversed[code]!;
   }
 }

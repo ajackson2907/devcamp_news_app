@@ -197,7 +197,12 @@ class _HomeScreenState extends State<HomeScreen> {
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
-          if (data.articles!.isEmpty) ...[Text('No articles have been retrieved for the topic: ${topic.name}')],
+          if (data.articles!.isEmpty) ...[
+            Text(
+              'No articles have been retrieved with parameters:\nTopic: ${topic.name}\nCountry: ${Utilities.fetchCountryName(country)}\nLanguage: ${Utilities.fetchLanguageName(language)}\n\nMake sure that you have the matching language if you update the country and visa versa.',
+              textAlign: TextAlign.center,
+            ),
+          ],
           if (data.articles!.isNotEmpty) ...[
             Expanded(
               child: ListView.separated(
