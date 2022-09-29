@@ -1,4 +1,7 @@
+// ignore_for_file: unused_import
+
 import 'package:devcamp_news_app/article_details.dart';
+import 'package:devcamp_news_app/home_screen.dart';
 import 'package:devcamp_news_app/main.dart';
 import 'package:devcamp_news_app/news_list_model.dart';
 import 'package:devcamp_news_app/search_screen.dart';

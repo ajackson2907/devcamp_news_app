@@ -1,4 +1,4 @@
-import 'package:devcamp_news_app/main.dart';
+import 'package:devcamp_news_app/home_screen.dart';
 import 'package:devcamp_news_app/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
