@@ -35,7 +35,10 @@ class _ArticleDetailsState extends State<ArticleDetails> {
                   child: RichText(
                     text: TextSpan(
                       text: widget.article.title!,
-                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                          ),
                       children: [
                         const TextSpan(text: ' - '),
                         TextSpan(

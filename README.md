@@ -1,16 +1,7 @@
-# devcamp_news_app
+# Flutter Dev Camp News App
 
-Application built on the Flutter Dev Camp
+News Application built as one of the assignments during the [Flutter Dev Camp](https://www.flutterdevcamp.com/).
 
-## Getting Started
+## News API Source
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The News data shown here is from [GNews](https://gnews.io/). GNews API is a simple REST API with which you can search for current and historic news articles published by over 60,000 sources. With this news API, you can also collect the current top headlines articles based on the Google News ranking. (Copyright © 2018-2022 GNews API. All Rights Reserved.)

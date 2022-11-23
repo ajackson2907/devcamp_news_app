@@ -1,15 +1,7 @@
-// ignore_for_file: unused_import
-
-import 'package:devcamp_news_app/constants.dart';
-import 'package:devcamp_news_app/http_service.dart';
-import 'package:devcamp_news_app/news_list_model.dart';
 import 'package:devcamp_news_app/router.dart';
-import 'package:devcamp_news_app/topics_model.dart';
-import 'package:devcamp_news_app/utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:go_router/go_router.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
